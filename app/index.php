@@ -15,6 +15,7 @@
         </a>
     </div>
 
+    <script src="assets/"></script>
 </body>
 
 </html>
