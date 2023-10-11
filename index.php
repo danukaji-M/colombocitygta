@@ -26,7 +26,7 @@ $_SESSION['logged_in'];
 <span class="text-warning h1" >hi</span>
             </div>
             <div class="col-12 background">
-
+                
             </div>
         </div>
     </div>
