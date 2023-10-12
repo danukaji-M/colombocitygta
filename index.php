@@ -56,8 +56,8 @@ if(empty($_GET['msg'])){
             </div>
             <div class="col-12 background">
             </div>
-            <div class="col-12">
-                
+            <div class="col-12 justify-content-center">
+
             </div>
         </div>
     </div>
