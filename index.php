@@ -20,42 +20,37 @@ $_SESSION['logged_in'];
     <link rel="stylesheet" href="assets\css\font.css">
     <link rel="stylesheet" href="assets\css\bootstrap.css">
     <link rel="stylesheet" href="assets\css\bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-cyborg-gaming.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <style>
+        .background {
+            background-image: url('assets/resources/homebg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: -12;
+            height: 100vh;
+            position: relative;
+            filter: blur(5px);
+            -webkit-filter: blur(5px);
+            /* Webkit (Safari) */
+            -moz-filter: blur(5px);
+            /* Firefox */
+            -o-filter: blur(5px);
+            /* Opera */
+            -ms-filter: blur(5px);
+            opacity: 0.5;
+        }
+    </style>
 </head>
 
-<body>
-    <div class="container-fluid text-light ">
+<body class="bg-dark">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <?php require "header.php" ?>
+                <span class="text-warning h1"></span>
             </div>
-            <div style="margin-top: 100px;" class="h1 text-light"><span class="d-none">hi</span></div>
-        </div>
-        <div class="row">
-            <div class="col-12  mt-5">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-6 ">
-                        <div class="h5 text-capitalize ">
-                            SRI LANKA NEW EXPEIENCED ROLEPLAY
-                        </div>
-                        <div class=" xltext text-capitalize">
-                            ROLEPLAY
-                        </div>
-                        <div class="text-capitalize">
-                            <span style="border-radius: 25px;
-                            border: 2px solid blue ;
-                            " class="btn btn-info text-light hoverbtn fw-bolder">How to play &RightArrow;</span>
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class="col-6 d-none d-lg-block ">
-                    </div>
-                </div>
+            <div class="col-12 background">
+
             </div>
         </div>
     </div>
@@ -68,11 +63,6 @@ $_SESSION['logged_in'];
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.sticky.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/popup.js"></script>
-    <script src="assets/js/custom.js"></script>
     <script>
         //scripts anime.js
     </script>
