@@ -44,7 +44,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
     width: auto;
     position: absolute;
     background: transparent; /* Set your desired background color/image */

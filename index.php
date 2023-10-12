@@ -55,7 +55,7 @@ if (empty($_GET['msg'])) {
     </style>
 </head>
 
-<body class="bg-dark">
+<body class="bg-dark overflow-x-hidden">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
