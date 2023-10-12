@@ -1,3 +1,15 @@
-.background{
-    background-image: url('');
+
+.images{
+  width: 100px;
+}
+
+.xltext{
+    font-size: 90px;
+    margin-top: -2vh;
+    margin-left: -0.3vw;
+    font-weight: bolder;
+    background: linear-gradient( rgb(67, 1, 52), rgb(252, 0, 244));
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
 }
