@@ -55,7 +55,9 @@ if(empty($_GET['msg'])){
                 <span class="text-warning h1"></span>
             </div>
             <div class="col-12 background">
-
+            </div>
+            <div class="col-12">
+                
             </div>
         </div>
     </div>
@@ -63,11 +65,8 @@ if(empty($_GET['msg'])){
     <script src="assets/js/anime.js"></script>
     <script src="assets/js/anime.es.js"></script>
     <script src="assets/js/anime.min.js"></script>
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.sticky.js"></script>
-    <script src="assets/js/main.js"></script>
+
     <script>
         //scripts anime.js
         alert("<?php echo $mes ?>")
