@@ -1,14 +1,29 @@
 <?php
+session_start();
 $_SESSION['userData'];
 $_SESSION['logged_in'];
+
+
+
 // Webhook URL
 $webhook_url = 'https://discord.com/api/webhooks/1161900834624376983/E3HHEu7zg7I-FK6IcBtOHB_h2XdakKNSkw4TFdo54ny9JyB0vnAnKAapIq8nhVTZKGJs';
 
 // Data to send in the request
+$name = $_SESSION['userData']['name'];
+$id = $_SESSION['userData']['discord_id'];
+// Data to send in the request
+
+$message = "Message content: Hello, Discord! This is a webhook message.\n";
+$message .= "Name:". $name ."\n";
+$message .= "ID:". $id;
 $data = array(
-    'key1' => 'value1',
-    'key2' => 'value2'
+    'content' => $message,
 );
+
+
+// Convert data to JSON format
+$json_data = json_encode($data);
+
 
 // Convert data to JSON format
 $json_data = json_encode($data);
@@ -36,4 +51,6 @@ curl_close($ch);
 if ($response) {
     // Handle the response here
     echo 'Webhook response: ' . $response;
+    header('Location: ../index.php?msg=Success Full Application Fill');
+        exit;
 }

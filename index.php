@@ -5,6 +5,11 @@ require "database/connection.php";
 
 $_SESSION['userData'];
 $_SESSION['logged_in'];
+if(empty($_GET['msg'])){
+    $msg = "";  
+}else{
+    $mes = $_GET['msg'];
+}
 
 //$avatar_url = "https://cdn.discordapp.com/avatars/$discord_id/$avatar.jpg";
 
@@ -65,6 +70,8 @@ $_SESSION['logged_in'];
     <script src="assets/js/main.js"></script>
     <script>
         //scripts anime.js
+        alert("<?php echo $mes ?>")
+        window.location= "index.php";
     </script>
 </body>
 

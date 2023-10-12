@@ -70,5 +70,5 @@ $_SESSION['userData'] = [
     'avatar'=>$result['avatar'],
 ];
 
-header("location: ..\index.php");
+header("location: ../index.php?msg=Success Full Login");
 exit();
