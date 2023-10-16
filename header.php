@@ -38,7 +38,9 @@
                         <?php
                             echo $_SESSION['userData']['name'];
                         } else {
-                            echo "User";
+                            ?>
+                            <a href="app\index.php" class="h4 text-danger pointer-event" >Login With discord</a>
+                            <?php
                         }
                         ?>
                     </h5>
@@ -47,19 +49,19 @@
                 <div class=" text-light offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link text-light active" aria-current="page" href="../index.php">Home</a>
+                            <a class="nav-link text-light active" aria-current="page" href="../කොළඹgta/index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="../application.php">Application</a>
+                            <a class="nav-link text-light" href="../කොළඹgta/application.php">Application</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="../playerDashboard.php">Profile</a>
+                            <a class="nav-link text-light" href="../කොළඹgta/playerDashboard.php">Profile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="../streamers.php">Streamer</a>
+                            <a class="nav-link text-light" href="../කොළඹgta/streamers.php">Streamer</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="../aboutus.php">About Us</a>
+                            <a class="nav-link text-light" href="../කොළඹgta/aboutus.php">About Us</a>
                         </li>
                     </ul>
                 </div>
