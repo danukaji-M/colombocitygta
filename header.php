@@ -1,73 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .random-color {
-            color: #<?php echo dechex(rand(0x000000, 0xEEEEEE)); ?>
-        }
-    </style>
-</head>
-
-<body class="">
-    <nav class="navbar  fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="resources/logo.png" class="images" alt="">
-            </a>
-            <button class="navbar-toggler text-bg-info " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas bg-dark text-light fw-bolder offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title random-color text-capitalize" id="offcanvasNavbarLabel">
-                        <?php
-                        if (isset($_SESSION['userData'])) {
-                            $discord_id = $_SESSION['userData']['discord_id'];
-                            $avatar = $_SESSION['userData']['avatar'];
-                        ?>
-
-                            <img class="userprofile" style="
-                                height: 50px;
-                                width: auto;
-                                border-radius: 100px;
-                            " src="<?php echo "https://cdn.discordapp.com/avatars/$discord_id/$avatar.jpg" ?>" alt="">
-                        <?php
-                            echo $_SESSION['userData']['name'];
-                        } else {
-                            ?>
-                            <a href="app\index.php" class="h4 text-danger pointer-event" >Login With discord</a>
-                            <?php
-                        }
-                        ?>
-                    </h5>
-                    <button type="button" class="btn-close text-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+<body>
+    <div class="col-12 bg-light ">
+        <div class="row">
+            <div class="col-6 mt-3 mb-3">
+                <div class="row">
+                    <div class="col-6 col-lg-1">
+                        <div class="imgnav">
+                            <img src="resources/logo.png"
+                                style="height: 60px; width: auto; margin-left:-15px; margin-bottom:-10px; position:absolute; display:flex;"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 mt-3 d-none mx-3 d-lg-block col-lg-6">
+                        <span class=" m-4 text-capitalize text-muted ">server Status :</span>
+                        <span class="text-success fw-bold"> online</span>
+                        <br>
+                        <span class="text-muted m-4">Players Online :</span>
+                        <span> <span class=" fw-bold">99/200</span>
+                            <br>
+                            <span></span>
+                    </div>
                 </div>
-                <div class=" text-light offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link text-light active" aria-current="page" href="../කොළඹgta/index.php">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="../කොළඹgta/application.php">Application</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="../කොළඹgta/playerDashboard.php">Profile</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="../කොළඹgta/streamers.php">Streamer</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="../කොළඹgta/aboutus.php">About Us</a>
-                        </li>
-                    </ul>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <nav>
+                        <ul class=" text-uppercase nav ">
+                            <li class=" m-5 nav-item">
+                                <a class="text-decoration-none fw-bolder  navhover" href="#">Home</a>
+                            </li>
+                            <li class=" m-5 nav-item">
+                                <a class="text-decoration-none fw-bolder  navhover" href="#">Rules</a>
+                            </li>
+                            <li class="m-5 nav-item">
+                                <a class="text-decoration-none fw-bolder  navhover" href="#">Discord</a>
+                            </li>
+                            <li class="m-5 nav-item">
+                                <a class="text-decoration-none fw-bolder  navhover" href="#">Download &
+                                    Play</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
 </body>
-
-</html>

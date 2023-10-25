@@ -7,12 +7,12 @@ if (empty($_GET['msg'])) {
     $msg = "";
 } else {
     $mes = $_GET['msg'];
-?>
-    <script>
-        //scripts anime.js
-        alert("<?php echo $mes ?>")
-        window.location = "index.php";
-    </script>
+    ?>
+<script>
+//scripts anime.js
+alert("<?php echo $mes ?>")
+window.location = "index.php";
+</script>
 <?php
 }
 
@@ -31,156 +31,63 @@ if (empty($_GET['msg'])) {
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <style>
-        .background {
-            background-image: url('resources/homebg.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            display: flex;
-            z-index: -99992;
-            height: 100vh;
-            position: absolute;
-            filter: blur(5px);
-            -webkit-filter: blur(5px);
-            /* Webkit (Safari) */
-            -moz-filter: blur(5px);
-            /* Firefox */
-            -o-filter: blur(5px);
-            /* Opera */
-            -ms-filter: blur(5px);
-            opacity: 0.5;
-        }
+    .background {
+        background-image: url('resources/homebg.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        z-index: -99992;
+        height: 100vh;
+        position: absolute;
+        filter: blur(2px);
+        -webkit-filter: blur(2px);
+        /* Webkit (Safari) */
+        -moz-filter: blur(2px);
+        /* Firefox */
+        -o-filter: blur(2px);
+        /* Opera */
+        -ms-filter: blur(2px);
+        opacity: 0.2;
+    }
     </style>
 </head>
 
 <body class="bg-dark overflow-x-hidden">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12">
-                <?php require "header.php" ?>
-                <span class="text-warning h1"></span>
-            </div>
-            <div class=" background">
-            </div>
-            <div class="col-12 ">
-                <div class=" col-12 container111"></div>
-                <div style="height: 100vh;" class="row  align-items-center justify-content-center ">
-                    <div class="col-12  col-md-12 justify-content-center mt-5 col-lg-5">
-                        <div id="carouselExampleSlidesOnly"  class=" mt-5 carousel slide border-radius" data-bs-ride="carousel">
-                            <div style="border-radius: 25px;" class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="resources\slideshow\20220916015138_1.png" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="resources\slideshow\20220919200632_1.png" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="resources\slideshow\20221110014335_1.png" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="resources\slideshow\20221223015357_1.png" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="resources\slideshow\20221229213840_1.png" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="resources\slideshow\20230110042851_1.png" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="resources\slideshow\20230128044144_1.png" class="d-block w-100" alt="...">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-light mx-5 text-uppercase sl h3">
-                            <span>colombo city roleplay next level</span>
-                        </div>
-                        <div class="text-uppercase mx-5 rpl text-light">
-                            <span style="
-                            
-                            background: linear-gradient(5deg, blue,rgb(132, 132, 245));
-                            background-clip: text;
-                            -webkit-background-clip: text;
-                            color: transparent;
-                            display: inline-block;
-                            animation: snake 10s linear infinite; 
-                            " class="shadow">roleplay</span>
-                        </div>
-                        <div class="text-uppercase mx-5 fw-bold h2 cc text-light">
-                            <span style="
-                            background: linear-gradient(45deg, pink,red);
-                            background-clip: text;
-                            -webkit-background-clip: text;
-                            color: transparent;
-                            display: inline-block;
-                            animation: snake 10s linear infinite; 
-                            font-weight:bolder;
-                            ">colombo city roleplay </span><br>
-                        </div>
-                        <a href="#" class="mx-5"><span class="btn btn-info span1 text-light fw-bolder" style="border-radius: 25px;">Whitelist &RightArrow;</span></a>
-                    </div>
-                    <div class="col-lg-5  d-none d-lg-block ">
-                        <div class="row ">
-                            <div style="height: 100vh;" class="col-12 bgbg d-block ">
-
-                            </div>
-
-                        </div>
-                    </div>
-
+            <?php require "header.php" ?>
+            <span class="text-warning h1"></span>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-12 justify-content-center mt-lg-5">
+            <div class="row">
+                <div class="col-10 offset-1 col-lg-5 mt-lg-5">
+                    <h1 class=" text-uppercase fw-bolder text-light mt-5">colombo nagare ROLEPLAY</h1>
+                    <span class=" text-light  text-bold text-capitalize">Welcome to Colombo City Roleplay, an immersive
+                        GTA FiveM server built on the Nopixel-inspired abcore framework. delivering an unmatched
+                        roleplaying experience. Dive into our world, characterized by serious roleplay, a rich array of
+                        over 50 optimized jobs, custom maps, scripts, clothing, cars, and much more. Explore a
+                        meticulousty crafted environment designed to provide an unforgettable escopode, solidifying our
+                        position as one of Sri Lanka's premier RP servers.
+                        <br>
+                        Step into the dynamic metropolis of Colombo City Roleplay. where an authentic GTA FiveM
+                        adventure awaits. Immerse yourself in our carefully curated features, fostering a playground for
+                        creativity and strategic thinking. Unleash your potential as you navigate through a myriad of
+                        seamiessly woven possibilities, redefining the standards of virtual immersion within Sri Lanka's
+                        finest RP servers. </span>
+                    <br>
+                    <button style="font-size: 20px;" class="btn btn-light text-secondary fw-bold">Play Now</button>
+                </div>
+                <div class="col-6 d-none d-lg-block">
+                    <div class="sideimg"></div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="loading-container">
-        <div class="shutter top">
-            <h1 style="font-size: 5vw;"  class="loading-text d-lg-none  h1"></h1>
-        </div>
-        <div class="shutter bottom">
-            <h1 style="font-size: 5vw;" class="loading-text h1"></h1>
-        </div>
-    </div>
-
-    <header class="landing-page">
-
     </header>
-    <script src="assets/js/anime.min.js"></script>
-    <script>
-        const container = document.querySelector(".container111"); // Use a dot (.) to select by class name
-        for (let i = 0; i < 200; i++) {
-            let blocks = document.createElement('div');
-            blocks.classList.add('block');
-            container.appendChild(blocks);
-        }
 
-        function animateBlocks() {
-            anime({
-                targets: '.block',
-                translateX: function() {
-                    return anime.random(-800, 800);
-                },
-                translateY: function() {
-                    return anime.random(-600, 600);
-                },
-                scale: function() {
-                    return anime.random(1, 5);
-                },
-                easing: 'linear',
-                duration: 1000,
-                delay: anime.stagger(10),
-                complete: animateBlocks,
-            })
-        }
-        animateBlocks();
-
-        const loadingText = [...document.querySelectorAll('.loading-text')];
-        let text = 'loading...';
-        for (let i = 0; i < text.length; i++) {
-            setTimeout(() => {
-                loadingText[0].innerHTML += text[i];
-                loadingText[1].innerHTML += text[i];
-            }, 500 * i);
-        }
-    </script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
 

@@ -1,0 +1,49 @@
+    <div class="loading-container">
+        <div class="shutter top">
+            <h1 style="font-size: 5vw;" class="loading-text d-lg-none  h1"></h1>
+        </div>
+        <div class="shutter bottom">
+            <h1 style="font-size: 5vw;" class="loading-text h1"></h1>
+        </div>
+    </div>
+    <header class="landing-page">
+
+
+        <script src="assets/js/anime.min.js"></script>
+        <script>
+        const container = document.querySelector(".container111"); // Use a dot (.) to select by class name
+        for (let i = 0; i < 200; i++) {
+            let blocks = document.createElement('div');
+            blocks.classList.add('block');
+            container.appendChild(blocks);
+        }
+    
+        function animateBlocks() {
+            anime({
+                targets: '.block',
+                translateX: function() {
+                    return anime.random(-800, 800);
+                },
+                translateY: function() {
+                    return anime.random(-600, 600);
+                },
+                scale: function() {
+                    return anime.random(1, 5);
+                },
+                easing: 'linear',
+                duration: 1000,
+                delay: anime.stagger(10),
+                complete: animateBlocks,
+            })
+        }
+        animateBlocks();
+    
+        const loadingText = [...document.querySelectorAll('.loading-text')];
+        let text = 'loading...';
+        for (let i = 0; i < text.length; i++) {
+            setTimeout(() => {
+                loadingText[0].innerHTML += text[i];
+                loadingText[1].innerHTML += text[i];
+            }, 500 * i);
+        }
+        </script>
