@@ -81,7 +81,6 @@ window.location = "index.php";
                     <form action="https://discord.gg/cnrplk" method="get" target="_blank">
                         <button type="submit" style="font-size: 20px;" class="btn btn-light text-secondary fw-bold">Get Whitelisted</button>
                     </form>
-                    <br>
                 </div>
                 <div class="col-6 d-none d-lg-block">
                     <div class="sideimg"></div>
