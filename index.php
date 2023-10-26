@@ -66,7 +66,7 @@ window.location = "index.php";
                 <div class="col-10 offset-1 col-lg-5 mt-lg-5">
                     <h1 class=" text-uppercase fw-bolder text-light mt-5">කොළබ නගරේ ROLEPLAY</h1>
                     <span class=" text-light  text-bold text-capitalize">Welcome to Colombo City Roleplay, an immersive
-                        GTA FiveM server built on the Nopixel-inspired abcore framework. delivering an unmatched
+                        GTA FiveM server built on the Nopixel-inspired qbcore framework. delivering an unmatched
                         roleplaying experience. Dive into our world, characterized by serious roleplay, a rich array of
                         over 50 optimized jobs, custom maps, scripts, clothing, cars, and much more. Explore a
                         meticulousty crafted environment designed to provide an unforgettable escopode, solidifying our

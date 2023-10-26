@@ -63,7 +63,7 @@ endif;
                                 <a class="text-decoration-none fw-bolder  navhover" href="https://discord.gg/cnrplk" target="_blank">Discord</a>
                             </li>
                             <li class="m-5 nav-item">
-                                <a class="text-decoration-none fw-bolder  navhover" href="#">Get Whitelist Now</a>
+                                <a class="text-decoration-none fw-bolder  navhover" href="#">Get Whitelisted</a>
                             </li>
                         </ul>
                     </nav>
