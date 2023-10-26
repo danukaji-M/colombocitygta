@@ -78,7 +78,10 @@ window.location = "index.php";
                         seamiessly woven possibilities, redefining the standards of virtual immersion within Sri Lanka's
                         finest RP servers. </span>
                     <br><br>
-                    <button style="font-size: 20px;" class="btn btn-light text-secondary fw-bold">Play Now</button>
+                    <form action="https://discord.gg/cnrplk" method="get" target="_blank">
+                        <button type="submit" style="font-size: 20px;" class="btn btn-light text-secondary fw-bold">Get Whitelisted</button>
+                    </form>
+                    <br>
                 </div>
                 <div class="col-6 d-none d-lg-block">
                     <div class="sideimg"></div>
