@@ -65,18 +65,10 @@ window.location = "index.php";
             <div class="row">
                 <div class="col-10 offset-1 col-lg-5 mt-lg-5">
                     <h1 class=" text-uppercase fw-bolder text-light mt-5">කොළබ නගරේ ROLEPLAY</h1>
-                    <span class=" text-light  text-bold text-capitalize">Welcome to Colombo City Roleplay, an immersive
-                        GTA FiveM server built on the Nopixel-inspired qbcore framework. delivering an unmatched
-                        roleplaying experience. Dive into our world, characterized by serious roleplay, a rich array of
-                        over 50 optimized jobs, custom maps, scripts, clothing, cars, and much more. Explore a
-                        meticulousty crafted environment designed to provide an unforgettable escopode, solidifying our
-                        position as one of Sri Lanka's premier RP servers.
+                    <span class=" text-light  text-bold text-capitalize">Welcome To Colombo City Roleplay, An immersive GTA FiveM server built on the Nopixel-Inspired Qbcore custom Framework. Delivering An Unmatched Roleplaying Experience. Dive Into Our World, Characterized By Serious Roleplay, A Rich Array Of Over 50 Optimized Jobs, Custom Maps, Scripts, Clothing, Cars, And Much More. Explore A Meticulously Crafted Environment Designed To Provide An Unforgettable Escopode, Solidifying Our Position As One Of Sri Lanka's Premier RP Servers.
                         <br><br>
-                        Step into the dynamic metropolis of Colombo City Roleplay. where an authentic GTA FiveM
-                        adventure awaits. Immerse yourself in our carefully curated features, fostering a playground for
-                        creativity and strategic thinking. Unleash your potential as you navigate through a myriad of
-                        seamiessly woven possibilities, redefining the standards of virtual immersion within Sri Lanka's
-                        finest RP servers. </span>
+                        Step Into The Dynamic Metropolis Of Colombo City Roleplay. Where An Authentic GTA FiveM Adventure Awaits. Immerse Yourself In Our Carefully Curated Features, Fostering A Playground For Creativity And Strategic Thinking. Unleash Your Potential As You Navigate Through A Myriad Of Seamlessly Woven Possibilities, Redefining The Standards Of Virtual Immersion Within Sri Lanka's Finest RP Servers.
+                     </span>
                     <br><br>
                     <form action="https://discord.gg/cnrplk" method="get" target="_blank">
                         <button type="submit" style="font-size: 20px;" class="btn btn-light text-secondary fw-bold">Get Whitelisted</button>
