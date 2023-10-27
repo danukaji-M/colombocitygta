@@ -74,7 +74,6 @@
   top: 0;
   left: 0;
   overflow: hidden;
-  z-index: 99;
 }
 
 .shutter {
@@ -154,28 +153,28 @@
   }
 }
 
-.imgnav{
+.imgnav {
   height: 80px;
   width: 80px;
-  background-color: #686868;
+  background-color: #000000;
   border-radius: 20%;
-  border: 2px solid rgb(54, 66, 35);
+  border: 2px solid rgb(6, 6, 5);
 }
 
-.navhover{
+.navhover {
   color: gray;
 }
 
-.navhover:hover{
+.navhover:hover {
   color: rgb(255, 123, 0);
 }
 
-.navhover:active{
+.navhover:active {
   color: rgb(255, 123, 0);
 }
 
-.sideimg{
-  background-image: url('resources/logo.png');
+.sideimg {
+  background-image: url("resources/logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

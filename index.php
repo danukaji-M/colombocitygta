@@ -83,14 +83,12 @@ window.location = "index.php";
                 <div class="col-6 d-none d-lg-block">
                     <div class="sideimg"></div>
                 </div>
+                <?php require "footer.php"
+
+                    ?>
             </div>
         </div>
     </div>
-    </header>
-
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-
 
 </body>
 
