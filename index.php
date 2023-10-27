@@ -64,7 +64,7 @@ window.location = "index.php";
         <div class="col-12 justify-content-center mt-lg-5">
             <div class="row">
                 <div class="col-10 offset-1 col-lg-5 mt-lg-5">
-                    <h1 class=" text-uppercase fw-bolder text-light mt-5">කොළබ නගරේ ROLEPLAY</h1>
+                    <h1 class=" text-uppercase fw-bolder text-light mt-5">කොළඹ නගරේ ROLEPLAY</h1>
                     <span class=" text-light  text-bold text-capitalize">Welcome To Colombo City Roleplay, An immersive GTA FiveM server built on the Nopixel-Inspired Qbcore custom Framework. Delivering An Unmatched Roleplaying Experience. Dive Into Our World, Characterized By Serious Roleplay, A Rich Array Of Over 50 Optimized Jobs, Custom Maps, Scripts, Clothing, Cars, And Much More. Explore A Meticulously Crafted Environment Designed To Provide An Unforgettable Escopode, Solidifying Our Position As One Of Sri Lanka's Premier RP Servers.
                         <br><br>
                         Step Into The Dynamic Metropolis Of Colombo City Roleplay. Where An Authentic GTA FiveM Adventure Awaits. Immerse Yourself In Our Carefully Curated Features, Fostering A Playground For Creativity And Strategic Thinking. Unleash Your Potential As You Navigate Through A Myriad Of Seamlessly Woven Possibilities, Redefining The Standards Of Virtual Immersion Within Sri Lanka's Finest RP Servers.
