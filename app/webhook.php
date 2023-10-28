@@ -14,8 +14,8 @@ $id = $_SESSION['userData']['discord_id'];
 // Data to send in the request
 
 $message = "Message content: Hello, Discord! This is a webhook message.\n";
-$message .= "Name:". $name ."\n";
-$message .= "ID:". $id;
+$message .= "**Name:** ". $name ."\n";
+$message .= "**ID:** ". $id;
 $data = array(
     'content' => $message,
 );

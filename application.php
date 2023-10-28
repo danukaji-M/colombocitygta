@@ -15,7 +15,6 @@ if(isset($_SESSION['userData'])){
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <style>
 
     </style>
@@ -99,8 +98,8 @@ if(isset($_SESSION['userData'])){
                                 <label class="text-warning text-uppercase fw-bold" for="jt">8&#41;. How long has it been
                                     since
                                     you were issued with a warning or ban?</label>
-                                <input class="form-control text-capitalize" id="stlink" placeholder="TIme Duration"
-                                    type="text" required>
+                                <input class="form-control text-capitalize" id="warning" placeholder="TIme Duration"
+                                    type="text">
                             </div>
                             <div class="col-12  mt-5 col-lg-6">
                                 <span style="font-size: 14px;" class="text-warning text-uppercase fw-bold">9&#41;.Have
@@ -172,19 +171,19 @@ if(isset($_SESSION['userData'])){
                                     (select available
                                     times)</span>
                                 <br>
-                                <input type="radio" id="t1">
+                                <input type="radio" value="t1" id="t1">
                                 <label class="text-light text-uppercase fw-bold" for="t1">Morning 06:00 AM - 14:00
                                     PM</label>
                                 <br>
-                                <input type="radio" id="t2">
+                                <input type="radio" value="t2" id="t2">
                                 <label class="text-light text-uppercase fw-bold" for="t2">Day 14:00 PM - 22:00
                                     PM</label>
                                 <br>
-                                <input type="radio" id="t3">
+                                <input type="radio" value="t3" id="t3">
                                 <label class="text-light text-uppercase fw-bold" for="t3">Night 22:00 PM - 06:00
                                     PM</label>
                                 <br>
-                                <input type="radio" id="t4">
+                                <input type="radio" value="t4" id="t4">
                                 <label class="text-light text-uppercase fw-bold" for="t4">Other</label>
                                 <input type="text" class="form-control" id='t5'
                                     placeholder='Enter Your Other Available time'>
@@ -198,7 +197,9 @@ if(isset($_SESSION['userData'])){
             </div>
         </div>
 </body>
-<script src=" assets/js/script.js"></script>
+<script>
+</script>
+<script src="script.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 
 </html>

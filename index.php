@@ -104,7 +104,7 @@ if (empty($_GET['msg'])) {
     integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="assets/js/script.js"></script>
+<script src="script.js"></script>
 </body>
 
 </html>
