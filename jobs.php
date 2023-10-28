@@ -37,8 +37,8 @@ require "database/connection.php";
         </div>
         <div class="row mt-5">
             <div class="col-12">
-                <div class="row">
-                    <div class="col-12 col-lg-5 offset-lg-1 ">
+                <div class="row justify-content-center">
+                    <div class="col-11  col-lg-5 offset-1 ">
                         <div class="row">
                             <div class="col-12">
                                 <span class="h6 text-warning text-decoration-underline text-uppercase">DEPERTMENT OF
@@ -47,13 +47,13 @@ require "database/connection.php";
                                 <span class="text-light fw-bold">
 
                                 </span>
-                                <a href="" style="height: 2.5rem; width: 8rem;"
+                                <a href="application.php?jobtt=police" style="height: 2.5rem; width: 8rem;"
                                     class="btn btn-warning fw-bolder text-light" onclick="jobapply(1);">APPLY &Tab;
                                     &RightArrow;</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-5 mt-4 mt-lg-0 offset-lg-1 ">
+                    <div class="col-11 col-lg-5 mt-4 mt-lg-0 offset-1 ">
                         <div class="row">
                             <div class="col-12">
                                 <span class="h6 text-warning text-decoration-underline text-uppercase">DEPERTMENT OF
@@ -62,13 +62,13 @@ require "database/connection.php";
                                 <span class="text-light fw-bold">
 
                                 </span>
-                                <a href="" style="height: 2.5rem; width: 8rem;"
+                                <a href="application.php?jobtt=doctor" style="height: 2.5rem; width: 8rem;"
                                     class="btn btn-warning fw-bolder text-light" onclick="jobapply(2);">APPLY &Tab;
                                     &RightArrow;</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-5 mt-4 offset-lg-1 ">
+                    <div class="col-11 col-lg-5 mt-4 offset-1 ">
                         <div class="row">
                             <div class="col-12">
                                 <span class="h6 text-warning text-decoration-underline text-uppercase">DEPERTMENT OF
@@ -77,7 +77,7 @@ require "database/connection.php";
                                 <span class="text-light fw-bold">
 
                                 </span>
-                                <a href="" style="height: 2.5rem; width: 8rem;"
+                                <a href="application.php?jobtt=engineer" style="height: 2.5rem; width: 8rem;"
                                     class="btn btn-warning fw-bolder text-light" onclick="jobapply(3);">APPLY &Tab;
                                     &RightArrow;</a>
                             </div>
@@ -90,6 +90,8 @@ require "database/connection.php";
             ?>
         </div>
     </div>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
 </body>
 
 </html>
