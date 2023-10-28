@@ -8,11 +8,6 @@ if (empty($_GET['msg'])) {
 } else {
     $mes = $_GET['msg'];
     ?>
-<script>
-//scripts anime.js
-alert("<?php echo $mes ?>")
-window.location = "index.php";
-</script>
 <?php
 }
 

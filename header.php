@@ -55,7 +55,7 @@ endif;
                     <nav>
                         <ul class=" text-uppercase nav ">
                             <li class=" m-5 nav-item">
-                                <a class="text-decoration-none fw-bolder  navhover" href="/index.php">Home</a>
+                                <a class="text-decoration-none fw-bolder  navhover" href="index.php">Home</a>
                             </li>
                             <li class=" m-5 nav-item">
                                 <a class="text-decoration-none fw-bolder  navhover" href="#">Rules</a>
