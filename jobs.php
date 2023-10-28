@@ -56,8 +56,22 @@ require "database/connection.php";
                         <div class="row">
                             <div class="col-12">
                                 <span class="h6 text-warning text-decoration-underline text-uppercase">DEPERTMENT OF
-                                    POLICE</span>
-                                <h1 class="h1 text-light text-uppercase"> POLICE DEPARTMENT</h1>
+                                    EMS</span>
+                                <h1 class="h1 text-light text-uppercase"> EMS DEPARTMENT</h1>
+                                <span class="text-light fw-bold">
+
+                                </span>
+                                <a href="" style="height: 2.5rem; width: 8rem;"
+                                    class="btn btn-warning fw-bolder text-light">APPLY &Tab; &RightArrow;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 mt-4 offset-lg-1 ">
+                        <div class="row">
+                            <div class="col-12">
+                                <span class="h6 text-warning text-decoration-underline text-uppercase">DEPERTMENT OF
+                                    JOBS</span>
+                                <h1 class="h1 text-light text-uppercase"> MACHANICS</h1>
                                 <span class="text-light fw-bold">
 
                                 </span>
