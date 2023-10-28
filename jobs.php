@@ -48,7 +48,8 @@ require "database/connection.php";
 
                                 </span>
                                 <a href="" style="height: 2.5rem; width: 8rem;"
-                                    class="btn btn-warning fw-bolder text-light">APPLY &Tab; &RightArrow;</a>
+                                    class="btn btn-warning fw-bolder text-light" onclick="jobapply(1);">APPLY &Tab;
+                                    &RightArrow;</a>
                             </div>
                         </div>
                     </div>
@@ -62,7 +63,8 @@ require "database/connection.php";
 
                                 </span>
                                 <a href="" style="height: 2.5rem; width: 8rem;"
-                                    class="btn btn-warning fw-bolder text-light">APPLY &Tab; &RightArrow;</a>
+                                    class="btn btn-warning fw-bolder text-light" onclick="jobapply(2);">APPLY &Tab;
+                                    &RightArrow;</a>
                             </div>
                         </div>
                     </div>
@@ -76,7 +78,8 @@ require "database/connection.php";
 
                                 </span>
                                 <a href="" style="height: 2.5rem; width: 8rem;"
-                                    class="btn btn-warning fw-bolder text-light">APPLY &Tab; &RightArrow;</a>
+                                    class="btn btn-warning fw-bolder text-light" onclick="jobapply(3);">APPLY &Tab;
+                                    &RightArrow;</a>
                             </div>
                         </div>
                     </div>
