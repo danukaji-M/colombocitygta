@@ -43,7 +43,8 @@ endif;
                         <span class="text-success fw-bold"><?php echo "$SERVER_STATUS"; ?></span>
                         <br>
                         <span class="text-muted m-4">Players Online :</span>
-                        <span> <span class=" fw-bold"><?php echo "$player_count / $server_settings[max_slots]"; ?></span>
+                        <span> <span
+                                class=" fw-bold"><?php echo "$player_count / $server_settings[max_slots]"; ?></span>
                             <br>
                             <span></span>
                     </div>
@@ -60,10 +61,21 @@ endif;
                                 <a class="text-decoration-none fw-bolder  navhover" href="#">Rules</a>
                             </li>
                             <li class="m-5 nav-item">
-                                <a class="text-decoration-none fw-bolder  navhover" href="https://discord.gg/cnrplk" target="_blank">Discord</a>
+                                <a class="text-decoration-none fw-bolder  navhover" href="https://discord.gg/cnrplk"
+                                    target="_blank">Discord</a>
                             </li>
                             <li class="m-5 nav-item">
-                                <a class="text-decoration-none fw-bolder  navhover" href="#">Get Whitelisted</a>
+                                <a class="text-decoration-none fw-bolder  navhover" href="jobs.php">Jobs</a>
+                            </li>
+                            <li class="m-5 nav-item">
+                                <a class="text-decoration-none fw-bolder  navhover" href="">
+                                    <?php
+                                if(isset($_SESSION['userData'])){
+                                    echo $_SESSION['userData']['name'] ."</a>";
+                                }else{
+                                    echo "<a class='text-decoration-none fw-bolder  navhover' href=".'./app/index.php'." >Login here</a>";
+                                }
+                                ?>
                             </li>
                         </ul>
                     </nav>
