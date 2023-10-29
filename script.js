@@ -23,8 +23,8 @@ gsap.fromTo(
     {
         opacity: 0,
         display: "none",
-        duration: 0.5,
-        delay: 2.5,
+        duration: 3,
+        delay: 4.5,
     }
 );
 
@@ -38,7 +38,7 @@ gsap.fromTo(
         y: 0,
         opacity: 1,
         duration: 2,
-        delay: 0.5,
+        delay: 1.5,
     }
 );
 
@@ -48,7 +48,7 @@ function submit(){
     var name = document.getElementById('name').value;
     var dob = document.getElementById('dob').value;
     var wpn = document.getElementById('wpn').value;
-    var country = document.getElementById('country').value;
+    var country = document.getElementById('countryId').value;
     var stlink = document.getElementById('stlink').value;
     var warning = document.getElementById('warning').value;
     var war1 = document.getElementById('warning1').checked; //warn havent
@@ -77,7 +77,7 @@ function submit(){
     var checkbox2 = document.getElementById("t2").checked;
     var checkbox3 = document.getElementById("t3").checked;
     var checkbox4 = document.getElementById("t4").checked;
-    var inputbox = document.getElementById("t5").checked;
+    var inputbox = document.getElementById("t5").value;
 
     if(checkbox1){
         var t1 = "Yes";  //MORNING 06:00 AM - 14:00 PM
@@ -91,4 +91,35 @@ function submit(){
     if(checkbox4){
         var t4 = "Yes"; // OTHER
     }
+alert(inputbox)
+    var f = new FormData;
+    f.append("jt",jt);
+    f.append("name",name);
+    f.append("dob",dob);
+    f.append("wpn",wpn);
+    f.append("country",country);
+    f.append("stlink",stlink);
+    f.append("warning",warning);
+    f.append("warning1",warning1);
+    f.append("icname",icname);
+    f.append("icdob",icdob);
+    f.append("icnum",icnum);
+    f.append("textarea",textarea);
+    f.append("doc",doc);
+    f.append("ictime",ictime);
+    f.append("t1",t1);
+    f.append("t2",t2);
+    f.append("t3",t3);
+    f.append("t4",t4);
+    f.append("inputbox",inputbox);
+
+    var r = new XMLHttpRequest;
+    r.onreadystatechange= function (){
+        if(r.readyState == 4 && r.status == 200){
+            var t = r.responseText;
+            alert(t);
+        }
+    }
+    r.open("POST","app/webhook.php",true);
+    r.send(f);
 }

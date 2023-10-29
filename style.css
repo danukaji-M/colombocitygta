@@ -215,9 +215,9 @@ body {
 }
 
 #svg {
-  height: 150px;
-  width: 150px;
-  stroke: white;
+  height: 50vh;
+  width: 50vw;
+  stroke: rgb(0, 254, 25);
   fill-opacity: 0;
   stroke-width: 3px;
   stroke-dasharray: 4500;
@@ -254,17 +254,7 @@ body {
 ner {
   height: 30px;
   overflow: hidden;
+
 }
 
-.logo-name {
-  color: #fff;
-  font-size: 20px;
-  letter-spacing: 12px;
-  text-transform: uppercase;
-  margin-left: 20px;
-  font-weight: bolder;
-}
 
-*{
-  font-family: 'Exo 2', sans-serif;
-}

@@ -196,6 +196,7 @@ if(isset($_SESSION['userData'])){
                 </div>
             </div>
         </div>
+    </div>
 </body>
 <script>
 </script>
